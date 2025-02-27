@@ -21,6 +21,7 @@ namespace Proyectos
         {
             FormGestion frm1 = new FormGestion();
             frm1.Show();
+        
         }
 
         private void gUIDinamicaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -28,5 +29,12 @@ namespace Proyectos
             FormGUI_Dinamico frm2 = new FormGUI_Dinamico();
             frm2.Show();
         }
+
+        private void controlesYClasesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormControlesClases frm3 = new FormControlesClases();
+            frm3.Show();
+        }
+
     }
 }
