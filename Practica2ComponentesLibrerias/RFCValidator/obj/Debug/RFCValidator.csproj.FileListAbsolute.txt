@@ -1,0 +1,6 @@
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\RFCValidator\bin\Debug\RFCValidator.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\RFCValidator\bin\Debug\RFCValidator.pdb
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\RFCValidator\obj\Debug\RFCValidator.csproj.AssemblyReference.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\RFCValidator\obj\Debug\RFCValidator.csproj.CoreCompileInputs.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\RFCValidator\obj\Debug\RFCValidator.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\RFCValidator\obj\Debug\RFCValidator.pdb

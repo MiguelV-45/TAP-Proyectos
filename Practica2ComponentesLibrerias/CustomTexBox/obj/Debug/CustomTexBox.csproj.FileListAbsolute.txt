@@ -1,0 +1,8 @@
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\bin\Debug\CustomTexBox.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\bin\Debug\CustomTexBox.pdb
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\obj\Debug\CustomTexBox.csproj.AssemblyReference.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\obj\Debug\CustomTexBox.csproj.GenerateResource.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\obj\Debug\CustomTexBox.csproj.CoreCompileInputs.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\obj\Debug\CustomTexBox.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\obj\Debug\CustomTexBox.pdb
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\CustomTexBox\obj\Debug\CustomTexBox.CustomTexBox1.resources

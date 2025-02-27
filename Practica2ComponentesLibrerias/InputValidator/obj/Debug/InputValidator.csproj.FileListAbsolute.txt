@@ -1,0 +1,6 @@
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\InputValidator\bin\Debug\InputValidator.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\InputValidator\bin\Debug\InputValidator.pdb
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\InputValidator\obj\Debug\InputValidator.csproj.AssemblyReference.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\InputValidator\obj\Debug\InputValidator.csproj.CoreCompileInputs.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\InputValidator\obj\Debug\InputValidator.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\InputValidator\obj\Debug\InputValidator.pdb

@@ -1,0 +1,16 @@
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\Prueba.exe
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\Prueba.pdb
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\NuñesControl.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.csproj.AssemblyReference.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.Form1.resources
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.csproj.GenerateResource.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.csproj.Up2Date
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.exe
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\obj\Debug\Prueba.pdb
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\CustomTexBox.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\Practica2ComponentesLibrerias.dll
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\CustomTexBox.pdb
+C:\Users\vigom\OneDrive\Documentos\Practica2ComponentesLibrerias\Prueba\bin\Debug\Practica2ComponentesLibrerias.pdb
