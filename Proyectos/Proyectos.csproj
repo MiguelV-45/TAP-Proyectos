@@ -130,41 +130,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Unidad 2\Componentes y librerias\CustomButton1.cs">
+    <Compile Include="Formularios\Unidad 2\Componentes y librerias\CustomButton1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Unidad 2\Componentes y librerias\CustomButton1.Designer.cs">
+    <Compile Include="Formularios\Unidad 2\Componentes y librerias\CustomButton1.Designer.cs">
       <DependentUpon>CustomButton1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 2\Componentes y librerias\CustomTexBox1.cs">
+    <Compile Include="Formularios\Unidad 2\Componentes y librerias\CustomTexBox1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Unidad 2\Componentes y librerias\CustomTexBox1.Designer.cs">
+    <Compile Include="Formularios\Unidad 2\Componentes y librerias\CustomTexBox1.Designer.cs">
       <DependentUpon>CustomTexBox1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 2\Componentes y librerias\RFC.cs" />
-    <Compile Include="Unidad 3\FormImplementacionHilos.cs">
+    <Compile Include="Formularios\Unidad 2\Componentes y librerias\RFC.cs" />
+    <Compile Include="Formularios\Unidad 3\FormImplementacionHilos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 3\FormImplementacionHilos.Designer.cs">
+    <Compile Include="Formularios\Unidad 3\FormImplementacionHilos.Designer.cs">
       <DependentUpon>FormImplementacionHilos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 2\FormControlesClases.cs">
+    <Compile Include="Formularios\Unidad 2\FormControlesClases.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 2\FormControlesClases.Designer.cs">
+    <Compile Include="Formularios\Unidad 2\FormControlesClases.Designer.cs">
       <DependentUpon>FormControlesClases.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 1\FormGestion.cs">
+    <Compile Include="Formularios\Unidad 1\FormGestion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 1\FormGestion.Designer.cs">
+    <Compile Include="Formularios\Unidad 1\FormGestion.Designer.cs">
       <DependentUpon>FormGestion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 1\FormGUI_Dinamico.cs">
+    <Compile Include="Formularios\Unidad 1\FormGUI_Dinamico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 1\FormGUI_Dinamico.Designer.cs">
+    <Compile Include="Formularios\Unidad 1\FormGUI_Dinamico.Designer.cs">
       <DependentUpon>FormGUI_Dinamico.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Menu.cs">
@@ -176,47 +176,47 @@
     <Compile Include="MetodosImagenes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Unidad 4\frmCredenciales.cs">
+    <Compile Include="Formularios\Unidad 4\frmCredenciales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 4\frmCredenciales.Designer.cs">
+    <Compile Include="Formularios\Unidad 4\frmCredenciales.Designer.cs">
       <DependentUpon>frmCredenciales.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 4\frmInicio.cs">
+    <Compile Include="Formularios\Unidad 4\frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 4\frmInicio.Designer.cs">
+    <Compile Include="Formularios\Unidad 4\frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 4\frmMySQL.cs">
+    <Compile Include="Formularios\Unidad 4\frmMySQL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 4\frmMySQL.Designer.cs">
+    <Compile Include="Formularios\Unidad 4\frmMySQL.Designer.cs">
       <DependentUpon>frmMySQL.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 4\frmSQL.cs">
+    <Compile Include="Formularios\Unidad 4\frmSQL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Unidad 4\frmSQL.Designer.cs">
+    <Compile Include="Formularios\Unidad 4\frmSQL.Designer.cs">
       <DependentUpon>frmSQL.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unidad 2\Componentes y librerias\ValidadorNumerosLetras.cs" />
-    <EmbeddedResource Include="Unidad 2\Componentes y librerias\CustomButton1.resx">
+    <Compile Include="Formularios\Unidad 2\Componentes y librerias\ValidadorNumerosLetras.cs" />
+    <EmbeddedResource Include="Formularios\Unidad 2\Componentes y librerias\CustomButton1.resx">
       <DependentUpon>CustomButton1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 2\Componentes y librerias\CustomTexBox1.resx">
+    <EmbeddedResource Include="Formularios\Unidad 2\Componentes y librerias\CustomTexBox1.resx">
       <DependentUpon>CustomTexBox1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 3\FormImplementacionHilos.resx">
+    <EmbeddedResource Include="Formularios\Unidad 3\FormImplementacionHilos.resx">
       <DependentUpon>FormImplementacionHilos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 2\FormControlesClases.resx">
+    <EmbeddedResource Include="Formularios\Unidad 2\FormControlesClases.resx">
       <DependentUpon>FormControlesClases.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 1\FormGestion.resx">
+    <EmbeddedResource Include="Formularios\Unidad 1\FormGestion.resx">
       <DependentUpon>FormGestion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 1\FormGUI_Dinamico.resx">
+    <EmbeddedResource Include="Formularios\Unidad 1\FormGUI_Dinamico.resx">
       <DependentUpon>FormGUI_Dinamico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Menu.resx">
@@ -232,16 +232,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Unidad 4\frmCredenciales.resx">
+    <EmbeddedResource Include="Formularios\Unidad 4\frmCredenciales.resx">
       <DependentUpon>frmCredenciales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 4\frmInicio.resx">
+    <EmbeddedResource Include="Formularios\Unidad 4\frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 4\frmMySQL.resx">
+    <EmbeddedResource Include="Formularios\Unidad 4\frmMySQL.resx">
       <DependentUpon>frmMySQL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Unidad 4\frmSQL.resx">
+    <EmbeddedResource Include="Formularios\Unidad 4\frmSQL.resx">
       <DependentUpon>frmSQL.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
