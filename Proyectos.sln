@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyectos", "Proyectos\Proyectos.csproj", "{AE07D3F5-BD88-4878-97EB-1D610266C01D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaDeContactos", "AgendaDeContactos\AgendaDeContactos.csproj", "{849826B7-EC3C-45F6-B329-8706706CDAF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,16 @@ Global
 		{AE07D3F5-BD88-4878-97EB-1D610266C01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE07D3F5-BD88-4878-97EB-1D610266C01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE07D3F5-BD88-4878-97EB-1D610266C01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849826B7-EC3C-45F6-B329-8706706CDAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849826B7-EC3C-45F6-B329-8706706CDAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849826B7-EC3C-45F6-B329-8706706CDAF9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{849826B7-EC3C-45F6-B329-8706706CDAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849826B7-EC3C-45F6-B329-8706706CDAF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECEE68E1-915D-40B8-A00E-907F9C8ECF1C}
 	EndGlobalSection
 EndGlobal

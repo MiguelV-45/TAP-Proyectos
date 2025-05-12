@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaDeContactos.Views.RegistroPage"
+             Title="Registro">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Registro de Usuario" FontSize="24" HorizontalOptions="Center" Margin="0,20"/>
+
+        <Entry x:Name="UsernameEntry" Placeholder="Usuario" FontSize="18" Margin="0,10"/>
+        <Entry x:Name="EmailEntry" Placeholder="Correo Electrónico" FontSize="18" Margin="0,10"/>
+        <Entry x:Name="PasswordEntry" Placeholder="Contraseña" FontSize="18" IsPassword="True" Margin="0,10"/>
+
+        <Button Text="Registrar" Clicked="RegisterButton_Clicked" FontSize="18" Margin="0,20"/>
+    </VerticalStackLayout>
+</ContentPage>

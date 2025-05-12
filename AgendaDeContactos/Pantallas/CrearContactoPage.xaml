@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaDeContactos.Pantallas.CrearContactoPage"
+             Title="Crear Contacto"
+             BackgroundColor="#000000">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#50C878</Color>
+            <Color x:Key="TextLight">#E0E0E0</Color>
+            <Color x:Key="InputBackground">#1E1E1E</Color>
+            <Color x:Key="ButtonDark">#121212</Color>
+
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="{StaticResource TextLight}" />
+                <Setter Property="PlaceholderColor" Value="#888" />
+                <Setter Property="BackgroundColor" Value="{StaticResource InputBackground}" />
+                <Setter Property="Margin" Value="0,8" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="WidthRequest" Value="280" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="HeightRequest" Value="55" />
+                <Setter Property="WidthRequest" Value="280" />
+                <Setter Property="BackgroundColor" Value="{StaticResource Accent}" />
+                <Setter Property="TextColor" Value="#000000" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="Shadow">
+                    <Setter.Value>
+                        <Shadow Brush="White" Offset="0,5" Radius="10" Opacity="0.3" />
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="15" VerticalOptions="Center">
+            <Label Text="Nuevo Contacto"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource Accent}"
+                   HorizontalOptions="Center">
+                <Label.Shadow>
+                    <Shadow Brush="White" Radius="6" Opacity="0.4" />
+                </Label.Shadow>
+            </Label>
+
+            <Entry Placeholder="Nombre" x:Name="NombreEntry"/>
+            <Entry Placeholder="Teléfono" Keyboard="Telephone" x:Name="TelefonoEntry"/>
+            <Entry Placeholder="Correo" Keyboard="Email" x:Name="CorreoEntry"/>
+            <Entry Placeholder="Dirección" x:Name="DireccionEntry"/>
+
+            <Button Text="Guardar Contacto"
+                    Clicked="OnGuardarContactoClicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+    
