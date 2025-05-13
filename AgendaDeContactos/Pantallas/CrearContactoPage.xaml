@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AgendaDeContactos.Pantallas.CrearContactoPage"
              Title="Crear Contacto">
-
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Accent">#50C878</Color>
