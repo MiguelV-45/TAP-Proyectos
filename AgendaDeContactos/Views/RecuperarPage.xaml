@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AgendaDeContactos.Views.RecuperarPage"
              Title="Recuperar Contraseña">
+
     <VerticalStackLayout Padding="20" Spacing="15">
         <Label Text="Recuperar Contraseña"
                FontSize="24"

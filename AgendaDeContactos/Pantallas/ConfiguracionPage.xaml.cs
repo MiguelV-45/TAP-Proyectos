@@ -1,3 +1,4 @@
+using AgendaDeContactos.Utils;
 namespace AgendaDeContactos;
 
 public partial class ConfiguracionPage : ContentPage
@@ -17,14 +18,11 @@ public partial class ConfiguracionPage : ContentPage
     }
     private void OnCambiarTemaClicked(object sender, EventArgs e)
     {
-        // Alternar entre claro y oscuro
-        if (App.Current.UserAppTheme == AppTheme.Dark)
-        {
-            App.Current.UserAppTheme = AppTheme.Light;
-        }
-        else
-        {
-            App.Current.UserAppTheme = AppTheme.Dark;
-        }
+        bool temaOscuro = App.Current.UserAppTheme == AppTheme.Dark;
+
+        // Cambiar y guardar el nuevo tema
+        bool nuevoTemaOscuro = !temaOscuro;
+        ConfiguracionApp.GuardarTema(nuevoTemaOscuro);
+        App.Current.UserAppTheme = nuevoTemaOscuro ? AppTheme.Dark : AppTheme.Light;
     }
 }

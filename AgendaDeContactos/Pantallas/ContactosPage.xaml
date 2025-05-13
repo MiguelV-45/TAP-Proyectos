@@ -12,9 +12,7 @@
                     <Border Margin="5" Padding="10">
                         <StackLayout>
                             <Label Text="{Binding Nombre}" FontAttributes="Bold" />
-                            <Label Text="{Binding Telefono}" />
-                            <Label Text="{Binding Correo}" />
-                            <Label Text="{Binding Direccion}"/>
+                   
                         </StackLayout>
                     </Border>
                 </DataTemplate>

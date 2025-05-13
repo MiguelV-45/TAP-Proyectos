@@ -23,7 +23,7 @@ public partial class RegistroPage : ContentPage
         {
             // Aquí agregarías la lógica para almacenar el usuario en una base de datos o cualquier otra acción
             await DisplayAlert("Éxito", "Usuario registrado exitosamente.", "OK");
-            await Shell.Current.GoToAsync("//login"); // Regresar a la página de login
+            await Navigation.PopAsync();
         }
     }
 }

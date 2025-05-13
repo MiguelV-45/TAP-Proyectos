@@ -15,6 +15,8 @@ public partial class RecuperarPage : ContentPage
         // Aquí podrías agregar validaciones o guardar en almacenamiento seguro
 
         await DisplayAlert("Contraseña actualizada", $"Tu contraseña ha sido actualizada para {email}", "OK");
-        await Shell.Current.GoToAsync("//login");
+        await Navigation.PopAsync();
     }
+
+
 }
