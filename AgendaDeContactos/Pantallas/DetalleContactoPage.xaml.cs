@@ -1,11 +1,12 @@
 using AgendaDeContactos.Datos;
 using AgendaDeContactos.Modelos;
+using System.Diagnostics;
 
 namespace AgendaDeContactos.Pantallas
 {
     public partial class DetalleContactoPage : ContentPage
     {
-        private ContactoDatabase db = new ContactoDatabase();
+        private AppDatabase db = new AppDatabase();
         private Contacto contactoOriginal;
 
         public DetalleContactoPage(Contacto contacto)

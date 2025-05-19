@@ -5,7 +5,7 @@ namespace AgendaDeContactos.Pantallas
 {
     public partial class CrearContactoPage : ContentPage
     {
-        private ContactoDatabase db = new ContactoDatabase();
+        private AppDatabase db = new AppDatabase();
 
         public CrearContactoPage()
         {

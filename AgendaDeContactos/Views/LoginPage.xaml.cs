@@ -1,10 +1,16 @@
+using AgendaDeContactos.Datos;
+using System.Diagnostics;
+
 namespace AgendaDeContactos.Views
 {
     public partial class LoginPage : ContentPage
     {
+        private readonly AppDatabase _database;
+
         public LoginPage()
         {
             InitializeComponent();
+            _database = new AppDatabase();
         }
 
         protected override bool OnBackButtonPressed()
@@ -13,35 +19,47 @@ namespace AgendaDeContactos.Views
             return true;
         }
 
-        private async void TapGestureRecognizerPwd_Tapped(object sender, TappedEventArgs e)
+        private async void LoginButton_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("//recuperar");
+            try
+            {
+                string usuario = Username.Text?.Trim();
+                string password = Password.Text;
+
+                if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(password))
+                {
+                    await DisplayAlert("Error", "Usuario y contraseña son requeridos", "OK");
+                    return;
+                }
+
+                bool credencialesValidas = await _database.ValidarCredencialesAsync(usuario, password);
+
+                if (credencialesValidas)
+                {
+                    Preferences.Set("UsuarioActual", usuario);
+                    await SecureStorage.SetAsync("hasAuth", "true");
+                    await Shell.Current.GoToAsync("///main");
+                }
+                else
+                {
+                    await DisplayAlert("Error", "Credenciales incorrectas", "OK");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error en login: {ex.Message}");
+                await DisplayAlert("Error", "Ocurrió un error al iniciar sesión", "OK");
+            }
         }
 
         private async void TapGestureRecognizerReg_Tapped(object sender, TappedEventArgs e)
         {
-            // Navegar a la página de registro
             await Shell.Current.GoToAsync("//registro");
         }
 
-        private async void LoginButton_Clicked(object sender, EventArgs e)
+        private async void TapGestureRecognizerPwd_Tapped(object sender, TappedEventArgs e)
         {
-            if (IsCredentialCorrect(Username.Text, Password.Text))
-            {
-                Preferences.Set("UsuarioActual", Username.Text.Trim());
-                await SecureStorage.SetAsync("hasAuth", "true");
-                await Shell.Current.GoToAsync("///main");
-            }
-            else
-            {
-                Preferences.Remove("UsuarioActual");
-                await DisplayAlert("Login failed", "Username or password if invalid", "Try again");
-            }
-        }
-
-        bool IsCredentialCorrect(string username, string password)
-        {
-            return Username.Text == "miguel" && Password.Text == "2005";
+            await Shell.Current.GoToAsync("//recuperar");
         }
     }
 }
